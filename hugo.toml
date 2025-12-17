@@ -1,4 +1,4 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'My Awesome Hugo Site'
-theme = 'ananke'
+theme = 'PaperMod'
