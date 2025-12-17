@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://blog.nathanw.xin/'
 languageCode = 'en-us'
-title = 'My Awesome Hugo Site'
+title = 'Nathan'
 theme = 'PaperMod'
