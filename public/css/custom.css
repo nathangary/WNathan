@@ -1,0 +1,27 @@
+/* WeChat QR Code Enhancement */
+.wechat-qrcode {
+  display: inline-block;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 12px;
+}
+
+.wechat-qrcode img {
+  border-radius: 12px;
+}
+
+/* Hover effect (desktop only) */
+@media (hover: hover) {
+  .wechat-qrcode:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  }
+}
+
+/* Dark mode optimization */
+body.dark .wechat-qrcode {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+body.dark .wechat-qrcode:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
