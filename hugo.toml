@@ -1,4 +1,41 @@
-baseURL = 'https://blog.nathanw.xin/'
-languageCode = 'en-us'
-title = 'Nathan'
-theme = 'PaperMod'
+baseURL: "https://blog.nathanw.xin/"
+languageCode: "zh-cn"
+title: "Nathan"
+
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 1
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 2
+    - identifier: github
+      name: GitHub
+      url: https://github.com/nathangary
+      weight: 3
+
+params:
+  # 外观与布局
+  defaultTheme: auto
+  disableThemeToggle: false
+  hideFooter: true
+
+  # 首页行为
+  mainSections:
+    - posts
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+
+  # 列表页
+  paginate: 5
+
+  # SEO（基础即可）
+  env: production
