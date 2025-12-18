@@ -39,3 +39,8 @@ params:
 
   # SEO（基础即可）
   env: production
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
