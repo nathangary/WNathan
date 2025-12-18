@@ -100,7 +100,9 @@ description: "背景经历，以及我如何看待系统与架构"
 <br />
 
 <p align="center">
-  <img src="/images/wechat-qrcode.png" alt="微信二维码" width="220"/>
+  <span class="wechat-qrcode">
+    <img src="/images/wechat-qrcode.png" alt="微信二维码" width="220"/>
+  </span>
 </p>
 
 <p align="center">

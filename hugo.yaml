@@ -40,6 +40,9 @@ params:
   # SEO（基础即可）
   env: production
 
+  customCSS:
+    - css/custom.css
+
 markup:
   goldmark:
     renderer:
