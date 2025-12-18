@@ -14,10 +14,10 @@ menu:
       name: 关于
       url: /about/
       weight: 2
-    - identifier: github
-      name: GitHub
-      url: https://github.com/nathangary
-      weight: 3
+    # - identifier: github
+    #   name: GitHub
+    #   url: https://github.com/nathangary
+    #   weight: 3
 
 params:
   # 外观与布局
